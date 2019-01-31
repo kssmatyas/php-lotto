@@ -9,9 +9,7 @@
     <body>
         Ez az index.php
         <?php
-        
-        
-        echo "jeeeeee";
+        echo "itt már a php script fut";
         ?>
     </body>
 </html>
