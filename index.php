@@ -21,6 +21,7 @@
                 }
             }
             var_dump($tomb);
+            echo "ezek voltak a számok";
         echo "itt már a php script fut";
         ?>
     </body>
