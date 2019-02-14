@@ -10,8 +10,9 @@
     <body>
         Ez az index.php
         <?php
+        include ("fgv.php");
             $sorsolt=sorsolas();
-            var_dump($tomb);
+            var_dump($sorsolt);
             //lottohuzas
             
             echo "ezek voltak a számok";
