@@ -6,21 +6,14 @@
         <meta charset="UTF-8">
         <title></title>
     </head>
+    <a href="index.php"></a>
     <body>
         Ez az index.php
         <?php
-            //lottohuzas
-            $kihuzottak=0;
-            while($kihuzottak<5)
-            {
-                $sorsoltszam=rand(1,90);
-                if(!isset($tomb[$sorsoltszam]))
-                {
-                    $tomb[$sorsoltszam]=1;
-                    $kihuzottak++;
-                }
-            }
+            $sorsolt=sorsolas();
             var_dump($tomb);
+            //lottohuzas
+            
             echo "ezek voltak a számok";
         echo "itt már a php script fut";
         ?>
